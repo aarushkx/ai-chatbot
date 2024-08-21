@@ -8,14 +8,14 @@ function App() {
     const [accessGranted, setAccessGranted] = useState(false);
 
     return (
-        <div>
+        <div className="flex flex-col min-h-screen">
             {!accessGranted && (
                 <AccessBox onAccessGranted={() => setAccessGranted(true)} />
             )}
             {accessGranted && (
                 <div className="flex flex-col min-h-screen">
                     <Header />
-                    <main className="flex-grow flex items-center justify-center">
+                    <main className="flex-grow flex items-center justify-center p-4">
                         <Chatbot />
                     </main>
                     <Footer />

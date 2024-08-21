@@ -11,6 +11,6 @@ A simple AI chatbot built with React, Tailwind CSS and Gemini AI.
 
 <img src="public/preview/preview.avif" width="200">
 
-<!-- ## View Project
+## View Project
 
-[View Live](http://localhost:5173) -->
+[View Live](http://dev-ai-chatbot.netlify.app)
